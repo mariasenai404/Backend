@@ -1,3 +1,7 @@
+<?php
+require_once("login.php");
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -16,6 +20,11 @@
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
+      <button 
+        onclick="location.href='logoff.php'"
+        style="background-color:red; border-color:red; color:white; border-radius: 10px" 
+        type="button">Sair
+      </button>
     </nav>
 
     <div class="container">    
@@ -54,7 +63,7 @@
 
                     <div class="row mt-5">
                       <div class="col-6">
-                        <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                        <a class="btn btn-lg btn-warning btn-block" href="painel.php">Voltar</a>
                       </div>
 
                       <div class="col-6">
