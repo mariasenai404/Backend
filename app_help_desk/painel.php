@@ -16,11 +16,15 @@ require_once("login.php");
   <body>
 
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#" onclick="location.href='index.php'" type="button">
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
-      <button onclick="location.href='logoff.php'" style="background-color:red; border-color:red; color:white; border-radius: 10px" type="button">Sair</button>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button onclick="location.href='logoff.php'" class="botao-sair" type="button">Sair</button>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">    
