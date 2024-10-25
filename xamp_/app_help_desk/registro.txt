@@ -1,4 +1,0 @@
-Teste01#Hardware#Trocar placa mãe
-Teste02#Impressora#Impressora do RH não imprimi
-Teste03#Software#Preciso instalar VScode
-teste 04#Rede#Wi-fi não esta funcionando
